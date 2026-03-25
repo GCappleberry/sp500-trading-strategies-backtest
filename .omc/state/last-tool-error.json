@@ -1,0 +1,7 @@
+{
+  "tool_name": "Bash",
+  "tool_input_preview": "{\"command\":\"cd C:/ZeroCapital/github_dataset && git pull origin main --allow-unrelated-histories --no-edit 2>&1 && git push -u origin main 2>&1\",\"timeout\":120000,\"description\":\"pull + push\"}",
+  "error": "Exit code 1\nFrom https://github.com/GCappleberry/sp500-trading-strategies-backtest\n * branch            main       -> FETCH_HEAD\n * [new branch]      main       -> origin/main\nAuto-merging LICENSE\nCONFLICT (add/add): Merge conflict in LICENSE\nAuto-merging README.md\nCONFLICT (add/add): Merge conflict in README.md\nAutomatic merge failed; fix conflicts and then commit the result.",
+  "timestamp": "2026-03-25T02:08:45.726Z",
+  "retry_count": 2
+}
