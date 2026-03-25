@@ -1,0 +1,210 @@
+{
+  "metadata": {
+    "strategy": "Donchian Channel Breakout S&P 500 — Parameter Optimization",
+    "ticker": "^GSPC",
+    "start_date": "2000-01-03",
+    "end_date": "2025-12-30",
+    "entry_periods_tested": [
+      10,
+      20,
+      30,
+      55,
+      100
+    ],
+    "exit_periods_tested": [
+      5,
+      10,
+      20
+    ],
+    "total_combinations": 15,
+    "initial_capital": 10000.0,
+    "ranking_metric": "sharpe_ratio"
+  },
+  "best_parameters": {
+    "entry_period": 30,
+    "exit_period": 20,
+    "cagr": 2.95,
+    "max_drawdown": -30.86,
+    "sharpe_ratio": 0.1427,
+    "win_rate": 43.82,
+    "total_trades": 89,
+    "final_capital": 21230.09,
+    "total_return": 112.3
+  },
+  "buy_and_hold": {
+    "cagr": 6.17,
+    "max_drawdown": -56.78,
+    "sharpe_ratio": 0.3034,
+    "win_rate": null,
+    "total_trades": 1,
+    "final_capital": 47389.68,
+    "total_return": 373.9
+  },
+  "all_results_ranked_by_sharpe": [
+    {
+      "entry_period": 30,
+      "exit_period": 20,
+      "cagr": 2.95,
+      "max_drawdown": -30.86,
+      "sharpe_ratio": 0.1427,
+      "win_rate": 43.82,
+      "total_trades": 89,
+      "final_capital": 21230.09,
+      "total_return": 112.3
+    },
+    {
+      "entry_period": 20,
+      "exit_period": 20,
+      "cagr": 2.88,
+      "max_drawdown": -47.88,
+      "sharpe_ratio": 0.1312,
+      "win_rate": 45.1,
+      "total_trades": 102,
+      "final_capital": 20847.01,
+      "total_return": 108.47
+    },
+    {
+      "entry_period": 10,
+      "exit_period": 20,
+      "cagr": 2.41,
+      "max_drawdown": -49.57,
+      "sharpe_ratio": 0.0942,
+      "win_rate": 46.83,
+      "total_trades": 126,
+      "final_capital": 18533.86,
+      "total_return": 85.34
+    },
+    {
+      "entry_period": 100,
+      "exit_period": 20,
+      "cagr": 2.2,
+      "max_drawdown": -18.06,
+      "sharpe_ratio": 0.0614,
+      "win_rate": 53.23,
+      "total_trades": 62,
+      "final_capital": 17466.16,
+      "total_return": 74.66
+    },
+    {
+      "entry_period": 20,
+      "exit_period": 10,
+      "cagr": 1.99,
+      "max_drawdown": -47.93,
+      "sharpe_ratio": 0.0437,
+      "win_rate": 45.0,
+      "total_trades": 160,
+      "final_capital": 16664.86,
+      "total_return": 66.65
+    },
+    {
+      "entry_period": 55,
+      "exit_period": 20,
+      "cagr": 1.57,
+      "max_drawdown": -26.69,
+      "sharpe_ratio": -0.0104,
+      "win_rate": 43.59,
+      "total_trades": 78,
+      "final_capital": 14953.4,
+      "total_return": 49.53
+    },
+    {
+      "entry_period": 10,
+      "exit_period": 10,
+      "cagr": 1.08,
+      "max_drawdown": -53.02,
+      "sharpe_ratio": -0.0283,
+      "win_rate": 44.44,
+      "total_trades": 198,
+      "final_capital": 13214.09,
+      "total_return": 32.14
+    },
+    {
+      "entry_period": 30,
+      "exit_period": 10,
+      "cagr": 0.82,
+      "max_drawdown": -41.43,
+      "sharpe_ratio": -0.1061,
+      "win_rate": 42.47,
+      "total_trades": 146,
+      "final_capital": 12343.25,
+      "total_return": 23.43
+    },
+    {
+      "entry_period": 100,
+      "exit_period": 10,
+      "cagr": 1.0,
+      "max_drawdown": -16.49,
+      "sharpe_ratio": -0.1488,
+      "win_rate": 44.12,
+      "total_trades": 102,
+      "final_capital": 12891.55,
+      "total_return": 28.92
+    },
+    {
+      "entry_period": 20,
+      "exit_period": 5,
+      "cagr": 0.42,
+      "max_drawdown": -38.45,
+      "sharpe_ratio": -0.1667,
+      "win_rate": 41.38,
+      "total_trades": 261,
+      "final_capital": 11150.92,
+      "total_return": 11.51
+    },
+    {
+      "entry_period": 55,
+      "exit_period": 10,
+      "cagr": 0.51,
+      "max_drawdown": -22.8,
+      "sharpe_ratio": -0.1839,
+      "win_rate": 41.46,
+      "total_trades": 123,
+      "final_capital": 11411.17,
+      "total_return": 14.11
+    },
+    {
+      "entry_period": 10,
+      "exit_period": 5,
+      "cagr": -0.95,
+      "max_drawdown": -57.78,
+      "sharpe_ratio": -0.2812,
+      "win_rate": 41.25,
+      "total_trades": 320,
+      "final_capital": 7796.39,
+      "total_return": -22.04
+    },
+    {
+      "entry_period": 30,
+      "exit_period": 5,
+      "cagr": -0.33,
+      "max_drawdown": -38.7,
+      "sharpe_ratio": -0.3218,
+      "win_rate": 40.08,
+      "total_trades": 237,
+      "final_capital": 9187.24,
+      "total_return": -8.13
+    },
+    {
+      "entry_period": 100,
+      "exit_period": 5,
+      "cagr": 0.15,
+      "max_drawdown": -15.02,
+      "sharpe_ratio": -0.3785,
+      "win_rate": 40.24,
+      "total_trades": 169,
+      "final_capital": 10402.33,
+      "total_return": 4.02
+    },
+    {
+      "entry_period": 55,
+      "exit_period": 5,
+      "cagr": -0.77,
+      "max_drawdown": -29.33,
+      "sharpe_ratio": -0.4763,
+      "win_rate": 38.61,
+      "total_trades": 202,
+      "final_capital": 8196.15,
+      "total_return": -18.04
+    }
+  ]
+}

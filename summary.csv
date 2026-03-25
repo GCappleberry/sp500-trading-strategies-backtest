@@ -1,0 +1,19 @@
+strategy,variant,cagr_pct,max_drawdown_pct,sharpe_ratio,win_rate_pct,total_trades,total_return_pct,data_file
+Buy & Hold (S&P 500),Benchmark,6.17,-56.78,0.3034,,1,373.9,data/bollinger_bands.json
+Dual Momentum,SPY/AGG 12-month,9.29,-22.24,0.5981,79.31,29,622.19,data/dual_momentum.json
+Dual Momentum (Optimized),lookback=1mo bond=TLT,10.66,-32.9,0.6252,75.0,24,971.54,data/dual_momentum_optimization.json
+Bollinger Bands,20-period 2-std,2.76,-33.84,0.1212,74.11,112,102.54,data/bollinger_bands.json
+Bollinger Bands (Optimized),period=10 std=1.5,4.48,-32.86,0.2458,73.08,260,212.01,data/bollinger_bands_optimization.json
+MA Crossover,SMA 50/200,6.72,-33.92,0.4177,75.0,12,414.67,data/sma_ema_crossover.json
+MA Crossover,EMA 12/26,3.86,-31.38,0.2197,40.0,100,167.77,data/sma_ema_crossover.json
+MA Crossover (Optimized),SMA 50/250,7.19,-33.92,0.4469,83.33,12,467.11,data/sma_ema_crossover_optimization.json
+Donchian Channel,Donchian 20-day,2.88,-47.88,0.1312,45.1,102,108.47,data/donchian_channel.json
+Donchian Channel,Donchian 55-day,5.04,-26.06,0.3199,57.58,33,255.0,data/donchian_channel.json
+Donchian Channel,Donchian 100-day,4.81,-24.62,0.3108,72.22,18,233.17,data/donchian_channel.json
+Donchian Channel (Optimized),entry=30 exit=20,2.95,-30.86,0.1427,43.82,89,112.3,data/donchian_channel_optimization.json
+RSI Mean Reversion,RSI-7 period,3.33,-49.73,0.1606,74.12,85,134.28,data/rsi_strategy.json
+RSI Mean Reversion,RSI-14 period,4.34,-52.58,0.2195,79.17,24,200.79,data/rsi_strategy.json
+RSI Mean Reversion,RSI-21 period,5.43,-45.76,0.2924,83.33,6,293.44,data/rsi_strategy.json
+KAMA Adaptive MA,Default params,0.31,-47.62,-0.0955,31.35,488,8.38,data/kama_adaptive_ma.json
+Volatility Breakout,Default params,-0.77,-45.3,-0.2392,35.85,106,-18.17,data/volatility_breakout.json
+ATR Breakout (Optimized),atr=10 mult=1.5,2.88,-42.52,0.1301,45.68,81,108.73,data/atr_breakout_optimization.json

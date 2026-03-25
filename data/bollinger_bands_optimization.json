@@ -1,0 +1,258 @@
+{
+  "metadata": {
+    "strategy": "Bollinger Band Mean Reversion Parameter Optimization",
+    "ticker": "^GSPC",
+    "start_date": "2000-01-03",
+    "end_date": "2025-12-30",
+    "periods_tested": [
+      10,
+      15,
+      20,
+      30,
+      50
+    ],
+    "std_devs_tested": [
+      1.5,
+      2.0,
+      2.5,
+      3.0
+    ],
+    "risk_free_annual_pct": 2.0,
+    "initial_capital": 10000.0,
+    "ranking_metric": "sharpe_ratio",
+    "total_combinations": 20
+  },
+  "best_parameters": {
+    "period": 10,
+    "num_std": 1.5,
+    "cagr": 4.48,
+    "max_drawdown": -32.86,
+    "sharpe_ratio": 0.2458,
+    "win_rate": 73.08,
+    "total_trades": 260,
+    "final_capital": 31201.41,
+    "total_return": 212.01
+  },
+  "all_results_ranked_by_sharpe": [
+    {
+      "period": 10,
+      "num_std": 1.5,
+      "cagr": 4.48,
+      "max_drawdown": -32.86,
+      "sharpe_ratio": 0.2458,
+      "win_rate": 73.08,
+      "total_trades": 260,
+      "final_capital": 31201.41,
+      "total_return": 212.01
+    },
+    {
+      "period": 15,
+      "num_std": 2.0,
+      "cagr": 4.27,
+      "max_drawdown": -30.64,
+      "sharpe_ratio": 0.2345,
+      "win_rate": 72.92,
+      "total_trades": 144,
+      "final_capital": 29571.7,
+      "total_return": 195.72
+    },
+    {
+      "period": 30,
+      "num_std": 2.0,
+      "cagr": 3.79,
+      "max_drawdown": -42.8,
+      "sharpe_ratio": 0.1938,
+      "win_rate": 73.49,
+      "total_trades": 83,
+      "final_capital": 26173.55,
+      "total_return": 161.74
+    },
+    {
+      "period": 30,
+      "num_std": 2.5,
+      "cagr": 3.64,
+      "max_drawdown": -34.54,
+      "sharpe_ratio": 0.1888,
+      "win_rate": 77.36,
+      "total_trades": 53,
+      "final_capital": 25209.47,
+      "total_return": 152.09
+    },
+    {
+      "period": 30,
+      "num_std": 1.5,
+      "cagr": 3.55,
+      "max_drawdown": -45.38,
+      "sharpe_ratio": 0.1757,
+      "win_rate": 74.31,
+      "total_trades": 109,
+      "final_capital": 24683.64,
+      "total_return": 146.84
+    },
+    {
+      "period": 15,
+      "num_std": 1.5,
+      "cagr": 3.51,
+      "max_drawdown": -31.5,
+      "sharpe_ratio": 0.1745,
+      "win_rate": 74.36,
+      "total_trades": 195,
+      "final_capital": 24475.85,
+      "total_return": 144.76
+    },
+    {
+      "period": 10,
+      "num_std": 2.0,
+      "cagr": 3.36,
+      "max_drawdown": -33.13,
+      "sharpe_ratio": 0.1739,
+      "win_rate": 78.08,
+      "total_trades": 146,
+      "final_capital": 23593.77,
+      "total_return": 135.94
+    },
+    {
+      "period": 20,
+      "num_std": 1.5,
+      "cagr": 2.86,
+      "max_drawdown": -36.68,
+      "sharpe_ratio": 0.1291,
+      "win_rate": 74.17,
+      "total_trades": 151,
+      "final_capital": 20780.66,
+      "total_return": 107.81
+    },
+    {
+      "period": 20,
+      "num_std": 2.0,
+      "cagr": 2.76,
+      "max_drawdown": -33.84,
+      "sharpe_ratio": 0.1212,
+      "win_rate": 74.11,
+      "total_trades": 112,
+      "final_capital": 20254.49,
+      "total_return": 102.54
+    },
+    {
+      "period": 50,
+      "num_std": 2.5,
+      "cagr": 2.43,
+      "max_drawdown": -40.05,
+      "sharpe_ratio": 0.0964,
+      "win_rate": 73.68,
+      "total_trades": 38,
+      "final_capital": 18568.11,
+      "total_return": 85.68
+    },
+    {
+      "period": 20,
+      "num_std": 2.5,
+      "cagr": 2.29,
+      "max_drawdown": -28.52,
+      "sharpe_ratio": 0.0787,
+      "win_rate": 75.86,
+      "total_trades": 58,
+      "final_capital": 17998.27,
+      "total_return": 79.98
+    },
+    {
+      "period": 15,
+      "num_std": 2.5,
+      "cagr": 1.96,
+      "max_drawdown": -28.52,
+      "sharpe_ratio": 0.0428,
+      "win_rate": 82.14,
+      "total_trades": 56,
+      "final_capital": 16535.02,
+      "total_return": 65.35
+    },
+    {
+      "period": 50,
+      "num_std": 1.5,
+      "cagr": 1.31,
+      "max_drawdown": -44.1,
+      "sharpe_ratio": 0.0268,
+      "win_rate": 75.0,
+      "total_trades": 64,
+      "final_capital": 14001.42,
+      "total_return": 40.01
+    },
+    {
+      "period": 10,
+      "num_std": 3.0,
+      "cagr": 0.0,
+      "max_drawdown": 0.0,
+      "sharpe_ratio": 0.0,
+      "win_rate": 0.0,
+      "total_trades": 0,
+      "final_capital": 10000.0,
+      "total_return": 0.0
+    },
+    {
+      "period": 50,
+      "num_std": 2.0,
+      "cagr": 0.84,
+      "max_drawdown": -42.92,
+      "sharpe_ratio": -0.0108,
+      "win_rate": 68.75,
+      "total_trades": 48,
+      "final_capital": 12419.24,
+      "total_return": 24.19
+    },
+    {
+      "period": 20,
+      "num_std": 3.0,
+      "cagr": 1.46,
+      "max_drawdown": -13.09,
+      "sharpe_ratio": -0.0828,
+      "win_rate": 84.21,
+      "total_trades": 19,
+      "final_capital": 14552.48,
+      "total_return": 45.52
+    },
+    {
+      "period": 50,
+      "num_std": 3.0,
+      "cagr": 0.23,
+      "max_drawdown": -40.05,
+      "sharpe_ratio": -0.0949,
+      "win_rate": 76.47,
+      "total_trades": 17,
+      "final_capital": 10604.07,
+      "total_return": 6.04
+    },
+    {
+      "period": 30,
+      "num_std": 3.0,
+      "cagr": -0.18,
+      "max_drawdown": -37.52,
+      "sharpe_ratio": -0.1829,
+      "win_rate": 66.67,
+      "total_trades": 15,
+      "final_capital": 9549.85,
+      "total_return": -4.5
+    },
+    {
+      "period": 15,
+      "num_std": 3.0,
+      "cagr": 1.06,
+      "max_drawdown": -8.26,
+      "sharpe_ratio": -0.2346,
+      "win_rate": 85.71,
+      "total_trades": 14,
+      "final_capital": 13130.04,
+      "total_return": 31.3
+    },
+    {
+      "period": 10,
+      "num_std": 2.5,
+      "cagr": -0.38,
+      "max_drawdown": -33.07,
+      "sharpe_ratio": -0.3663,
+      "win_rate": 80.0,
+      "total_trades": 15,
+      "final_capital": 9066.78,
+      "total_return": -9.33
+    }
+  ]
+}
